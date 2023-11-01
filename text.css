@@ -1,0 +1,12 @@
+.img{
+    image-orientation: right;
+}
+.Container1{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: larger;
+   font: 100;
+   color: gray;
+   display: block;
+   background-color: goldenrod;
+}
+
