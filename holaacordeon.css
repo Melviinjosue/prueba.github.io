@@ -16,14 +16,14 @@
 display: block;
 padding: 20px;
 font-size: 20px;
-background: #a01313;
+background: #0e6a74;
 color: white;
 cursor: pointer;
 margin-bottom: 2px;
 transition: all 300ms ease;
 }
 .acordeon label:hover{
-    background: #0e674;
+    background: #C2d6e0;
 }
 .acordeon .contenido-acordeon{
     padding: 0px;
@@ -39,6 +39,6 @@ transition: all 300ms ease;
 .btn-acordeon{
     display: none;
 }
-@media screen and (max-width:900px){
-    width: 90%;
+@media screen and (max-width:900px) {
+    width: ;90%;
 }
