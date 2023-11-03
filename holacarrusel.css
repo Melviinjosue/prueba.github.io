@@ -6,14 +6,9 @@
 }
 
 body{
-    background-color: aquamarine;
+    background-color: white;
 }
 
-.titulo{
-    text-align: center;
-    font-size: 40px;
-    padding-top: 50px;
-}
 .slider-box{
     width: 1280px;
     height: auto;
