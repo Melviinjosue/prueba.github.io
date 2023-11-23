@@ -40,5 +40,5 @@ transition: all 300ms ease;
     display: none;
 }
 @media screen and (max-width:900px) {
-    width: ;90%;
+    width: 90%;
 }
