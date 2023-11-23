@@ -1,91 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
 body{
-    font-family: arial, helvetica;
-    background: linear-gradient(rgb(255, 255, 255), #C2D6E0, #0e6a74);
-    min-height: 100vh;
+    background-color: #dee0ed;
 }
-
-.menu{
-    list-style: none;
-    padding: 4;
-    background: #C2D6E0;
-    width: 100%;
-    max-width: 1810px;
-    margin: auto;
-    height: 70px;
+.heading{
+    text-align: center;
+    margin-top: 25px;
+}
+.heading h1{
+    font-size: 50px;
+    color: #36455c;
+    margin-bottom: 10px;
+}
+.heading p{
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 50px;
+}
+.about-us{
     display: flex;
     align-items: center;
-    justify-content:center;
-}
-.menu li a{
-    text-decoration: none;
-    color: gray;
-    padding: 15px;
-    display: block;
-    font-size: large;
-}
-
-.menu li{
-    display: inline-block;
-    text-align: start;
-}
-
-.menu li a:hover{
-    background: #228b7d;
-    color: #ffffff;
-}
-.menu li b{
-    text-decoration: double;
-    color: #801515;
-    padding: 15px;
-    display: block;
-    background-color: #C2D6E0;
-    height: 41px;
-    font-size: 3em;
-}
-.class{
-    padding: 1;
+    width: 85%;
     margin: auto;
-    background-color: #0e6a74;
-    width: 1810px;
-    height: 15px;
-    list-style: none;
 }
-.class li a{
-    display: block;
-    color: #ffffff;
-    text-decoration: darkgrey;
-    padding: 10px;
+.about-us img{
+    flex: 0 50%;
+    max-width: 50%;
+    height: auto;
 }
-.class li{
+.content{
+    padding: 35px;
+}
+.content h2{
+    color: #36455c;
+    font-size: 24px;
+    margin: 15px 0px;
+}
+.content p{
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 15px 0px;
+}
+.read-more-btn{
     display: inline-block;
-    text-align: center all;
+    color: #fff;
+    background-color: #0084ff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
 }
-.class li a :hover{
-    background: gold;
-    color: white;
+.read-more-btn:hover{
+    background-color: #006dd6;
 }
-.lol{
-    padding: 1;
-    margin: auto;
-    background-color: #C2D6E0;
-    width: 1810px;
-    height: 75px;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.lol li a{
-    display: block;
-    color: #0e6a74;
-    padding: 11px;
-    font-size: medium;
-}
-.lol li{
-    display: inline-block;
-    text-align: center all;
-}
-.lol li a:hover{
-    background: rgb(47, 88, 78);
-    color: white;
+@media(max-width: 768pc){
+    .about-us{
+        flex-direction: column;
+    }
+    .about-us img{
+        flex: 0 100%;
+        max-width: 100%;
+    }
+    .content{
+        flex: 0 100%;
+        max-width: 100%;
+        padding: 15px;
+    }
 }
